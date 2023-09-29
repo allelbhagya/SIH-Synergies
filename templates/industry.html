@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>industry pdfs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+  <body>
+    <div class='container-fluid'>
+      <div class="heading text-center">
+          <img src="/static/img/c.png" class="d-block w-100" alt="..." height="40">
+          <img src="/static/img/cia.png" class="d-block w-100" alt="...">
+          <img src="/static/img/i1.png" class="d-block w-100" alt="...">
+          <img src="/static/img/i2.png" class="d-block w-100" alt="...">
+          <img src="/static/img/r.png" class="d-block w-100" alt="...">
+      </div>  
+    <div class="table-responsive mx-5 my-5">
+        <table class="table table">
+            <thead class="table-dark">
+            <tr>
+                <th scope="col">Resource Material</th>
+                <th scope="col">Original pdf</th>
+                <th scope="col">Translated in regional Languages</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Presentation</td>
+                <td><a href="/not_available" class="btn btn-primary">English</a></td>
+                <td><a href="/not_translated" class="btn btn-info">Hindi</a>
+                    <a href="/not_translated" class="btn btn-secondary">Marathi</a>
+                    <a href="/not_translated" class="btn btn-success">Bengali</a>
+                    <a href="/not_translated" class="btn btn-warning">Gujrati</a>
+                    <a href="/not_translated" class="btn btn-dark">Tamil</a>
+                    <a href="/not_translated" class="btn btn-danger">Telugu</a></td>
+            </tr>
+            <tr>
+                <td>Booklet</td>
+                <td><a href="{{ url_for('download_file', id=6) }}" class="btn btn-primary">English</a></td>
+                <td><a href="{{ url_for('download_file', id=8) }}" class="btn btn-info">Hindi</a>
+                    <a href="{{ url_for('download_file', id=9) }}" class="btn btn-secondary">Marathi</a>
+                    <a href="{{ url_for('download_file', id=5) }}" class="btn btn-success">Bengali</a>
+                    <a href="{{ url_for('download_file', id=7) }}" class="btn btn-warning">Gujrati</a>
+                    <a href="{{ url_for('download_file', id=10) }}" class="btn btn-dark">Tamil</a>
+                    <a href="{{ url_for('download_file', id=11) }}" class="btn btn-danger">Telugu</a></td>
+            </tr>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="text-center my-3">
+      <h4> Upload your document here</h4>
+      <a href="#" class="btn btn-primary my-3">Upload</a>
+    </div>
+    <div class="container-fluid" my-4>
+      <footer class="py-3 my-4 " >
+        <img src="/static/img/footer.PNG" class="d-block w-100 " alt="..." height=250 width=50>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
