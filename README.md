@@ -18,10 +18,10 @@ Instructions for installing this website locally or on a server:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-flask-website.git
+git clone https://github.com/allelbhagya/SIH-Synergy/
 
 # Navigate to the project directory
-cd your-flask-website
+cd your-flask-website location 
 
 # Create a virtual environment (optional but recommended)
 python -m venv venv
